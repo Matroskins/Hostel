@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:medium');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@font-face {
+    font-family: 'MuseoCyrl';
+    src: url('fonts/ofont.ru_Museo Cyrl 500.ttf') format('truetype');
+}
+
+.hostel {
+    height: 1050px;
+    background: url('../images/header_background.jpg') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hostel header {
+    margin-top: 20px;
+}
+
+.hostel header .header-element p,
+.hostel header .header-element img {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.hostel header .header-element p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hostel header div:nth-child(n+1) {
+    margin-left: 100px;
+    float: left;
+}
+
+.hostel header div:nth-child(2) {
+    margin-left: 290px;
+    display: flex;
+}
+
+.hostel header p {
+    color: white;
+}
+
+.hostel .hostel-face {
+    color: white;
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.hostel .hostel-face h1,
+.hostel .hostel-face h2 {
+    font-family: 'MuseoCyrl';
+    font-size: 20pt;
+}
+
+.hostel .hostel-face h3 {
+    font-family: 'Roboto medium';
+    font-size: 20pt;
+}
+
+.hostel .hostel-face h1,
+.hostel .hostel-face h2,
+.hostel .hostel-face h3 {
+    padding-top: 10px;
+}
+
+.hostel .hostel-face button {
+    border-radius: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 600;
+    padding: 10px 5px 10px 5px;
+    background-color: #fd725b;
+    border: none;
+    margin-top: 60px;
+}
+
+.hostel-specials h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'MuseoCyrl';
+    font-size: 20pt;
+}
+
+.hostel-specials>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hostel-specials>div .icon-first-row,
+.hostel-specials>div .icon-second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.hostel-specials img {
+    height: 120px;
+    width: 220px;
+}
+
+.hostel-specials .icon-first-row div,
+.hostel-specials .icon-second-row div {
+    width: 220px;
+}
+
+.hostel-specials p {
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    font-size: 17pt;
+}
+
+.room h2 {
+    font-style: 'MuseoCyrl', serif;
+    font-size: 40pt;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.room .room-info {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.room-info .first-column {
+    padding-top: 20px;
+}
+
+.room .room-info h3 {
+    font-family: 'Roboto Medium';
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.room .second-column::before {
+    content: ' ';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.room .day-price p,
+.room .day-price button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.room button {
+    border-radius: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 500;
+    padding: 5px 5px 10px 5px;
+    background-color: #fd725b;
+    border: none;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.room p {
+    font-family: 'Roboto Condensed';
+    font-size: 20pt;
+}
+
+.room-info .first-column {
+    border-bottom: solid 2px black;
+    padding-bottom: 15px;
+}
+
+.room-info .second-column {
+    padding-top: 15px;
+}
+
+.rooms .info {
+    width: 1180px;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+}
+
+.room:nth-child(even) .info {
+    flex-direction: row-reverse;
+}
+
+.room:nth-child(1) .room-info {
+    background: url('../images/room1_background.jpg') no-repeat;
+}
+
+.room:nth-child(2) .room-info {
+    background: url('../images/room2_background.jpg') no-repeat;
+}
+
+.room:nth-child(3) .room-info {
+    background: url('../images/room3_background.jpg') no-repeat;
+}
+
+.room-info {
+    width: 630px;
+}
+
+.room-photo {
+    width: 550px;
+}
+
+.rooms header {
+    text-align: center;
+}
+
+.place-for-dream h1,
+.hostel-photos h1 {
+    margin-top: 20px;
+    font-size: 20pt;
+    font-weight: 500;
+    font-family: 'MuseoCyrl', serif;
+    text-align: center;
+}
+
+.place-for-dream img {
+    display: block;
+    margin: auto;
+}
+
+.hostel-photos h1 {
+    margin-bottom: 20px;
+}
+
+.hostel-photos .column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.hostel-photos .column>div {
+    width: 33%;
+}
+
+.hostel-photos .column>div:hover {
+    width: 60%;
+}
+
+.hostel-photos .column img {
+    /*width: 100%;*/
+    display: block;
+}
+
+.sofa-pic {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fd725b;
+    min-width: 100%;
+    box-sizing: cover;
+    background-size: 100%;
+}
+
+.sofa-pic p,
+.sofa-pic h2 {
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sofa-pic h2 {
+    font-family: 'MuseoCyrl 500', 'serif';
+    font-weight: 700;
+    font-size: 40pt;
+    /*box-size: ; */
+}
+
+.sofa-pic p {
+    font-family: 'Roboto Regular', 'serif';
+    font-size: 17pt;
+}
+
+.sofa-pic p span {
+    font-family: 'Roboto Black', 'serif';
+    font-size: 17pt;
+    font-weight: 700;
+}
+
+.sofa-pic p:nth-child(n+1) {
+    margin-top: 15px;
+}
+
+.sofa-pic .info {
+    width: 20px;
+}
+
+.sofa-pic .info .log {
+    text-align: center;
+}
+
+.comments h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'MuseoCyrl 500', 'serif';
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+.comments img {
+    /*width: 220px;*/
+}
+
+.comments-inf {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments-inf h3 {
+    font-family: 'Roboto Bold', 'serif';
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.comments-inf p {
+    font-family: 'Roboto', 'serif';
+}
+
+.comments-inf div {
+    width: 230px;
+}
+
+.comments-inf h3 {
+    margin-bottom: 20px;
+}
+
+.vk-adress {
+    margin-top: 10px;
+    color: #fd8571;
+}
+
+.sell-info {
+    background-color: #7c7c7c;
+    float: right;
+}
+
+.contact-row img {
+    height: 20px;
+    width: 20px;
+}
+
+.contact-row p {
+    color: white;
+    margin-left: 10px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer button {
+    border-radius: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 600;
+    padding: 10px 5px 10px 5px;
+    background-color: #fd725b;
+    border: none;
+}
+
+.form-f div {
+    margin-top: 10px;
+}
+
+.contact-row,
+.form-f {
+    margin-left: 10px;
+}
+
+.contact-row:last-child {
+    margin-top: 10px;
+}
+
+.contact-row:last-child img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+#YMapsID {
+    float: right;
+    height: 100px;
+    width: 100px;
+}

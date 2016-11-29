@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+
+    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+    <script defer type="text/javascript">
+        // Создает обработчик события window.onLoad
+        YMaps.jQuery(function() {
+            // Создает экземпляр карты и привязывает его к созданному контейнеру
+            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+            // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+            map.setCenter(new YMaps.GeoPoint(37.64, 55.76), 10);
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <secction class="hostel">
+
+        <header>
+            <div id="hotelLabel">
+                <img src="./images/logo_otel.png" alt="hotel-label" height="80" width="180">
+            </div>
+            <div class="header-element">
+                <p> ул. Тургенева, дом 4 </p>
+                <p> 8-978-060-54-60 </p>
+                <img src="./images/svg/icons/vk divan.svg" alt="vk-label" height="30" width="30" id="vk">
+                <img src="./images/svg/icons/instagram divan.svg " alt="hotel-label " height="30 " width="30 ">
+            </div>
+        </header>
+
+        <secction class="hostel-face">
+            <h1> Хостел </h1>
+            <h2> &#171 Как бы отель &#187</h2>
+            <h3> Cамый стильный хостел Симферополя </h3>
+            <button> ЗАБРОНИРОВАТЬ МЕСТО </button>
+        </secction>
+    </secction>
+
+    <secction class="hostel-specials">
+        <h2> Особенности хостела </h2>
+        <div>
+            <div class="icon-first-row">
+                <div class="sofa">
+                    <img src="./images/svg/sofa.svg" alt="sofa">
+                    <p>Дизайнерский интерьев </p>
+                </div>
+
+                <div class="reception">
+                    <img src="./images/svg/reception-bell.svg" alt="sofa">
+                    <p> Reception 24 часа </p>
+                </div>
+
+                <div class="administration-woman">
+                    <img src="./images/svg/woman.svg" alt="sofa">
+                    <p> Внимательные администраторы </p>
+                </div>
+
+                <div class="clock">
+                    <img src="./images/svg/clock-1.svg" alt="sofa">
+                    <p>Отсутствие «комендантского» часа </p>
+                </div>
+
+                <div class="wi-fi">
+                    <img src="./images/svg/wireless-internet-connectivity.svg" alt="sofa">
+                    <p> Бесплатный Wi-Fi </p>
+                </div>
+            </div>
+            <div class="icon-second-row">
+                <div class="kitchen-tea">
+                    <img src="./images/svg/teapot.svg" alt="sofa">
+                    <p>Полностью оборудованная кухня </p>
+                </div>
+
+                <div class="conditioner">
+                    <img src="./images/svg/air-conditioner-1.svg" alt="sofa">
+                    <p> Кондиционеры во всех номерах </p>
+                </div>
+
+                <div class="bed">
+                    <img src="./images/svg/bed.svg" alt="sofa">
+                    <p> Постельное белье включено в цену </p>
+                </div>
+
+                <div class="TV">
+                    <img src="./images/svg/computer.svg" alt="sofa">
+                    <p> TV с плоским экраном </p>
+                </div>
+
+                <div class="food-knife">
+                    <img src="./images/svg/food.svg" alt="sofa">
+                    <p> Скидка 15% в «Как бы Кафе» </p>
+                </div>
+            </div>
+        </div>
+
+    </secction>
+
+    <secction class="rooms ">
+        <div class="room">
+            <header>
+                <h2> Комната </h2>
+            </header>
+            <div class="info clearfix">
+                <div class="room-info">
+                    <h3> 8-местная комната </h3>
+                    <div class="first-column">
+                        <p>
+                            Общая комната на 8 мест со всем необходимым. В стоимость входит WI-FI, постельное белье и два полотенца, розетки, светильник, а так же все удобства хостела.</p>
+                    </div>
+                    <div class="second-column">
+                        <div class="day-price">
+                            <p> 588 р/Час </p>
+                            <button class="book"> Забронировать место </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-photo"> <img src="./images/room1.jpg" alt="room-1"> </div>
+            </div>
+        </div>
+        <div class="room">
+            <div class="info clearfix">
+                <div class="room-info">
+                    <h3> 4-местная комната </h3>
+                    <div class="first-column">
+                        <p>
+                            Общая комната на 8 мест со всем необходимым. В стоимость входит WI-FI, постельное белье и два полотенца, розетки, светильник, а так же все удобства хостела.
+                        </p>
+                    </div>
+                    <div class="second-column">
+                        <div class="day-price">
+                            <p> 640 р/Час </p>
+                            <button class="book"> Забронировать место </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-photo"> <img src="./images/room2.jpg" alt="room-2"> </div>
+            </div>
+        </div>
+        <div class="room">
+            <div class="info clearfix">
+                <div class="room-info">
+                    <h3> 2-спальная кровать в 8-местной комнате </h3>
+                    <div class="first-column">
+                        <p>
+                            Кровать для двух человек, закрывающаяся шторой. В цену номера в хостеле включены WI-FI, постельное белье и полотенца, фен, кофе, чай и остальные бесплатные услуги хостела.
+                        </p>
+                    </div>
+                    <div class="second-column">
+                        <div class="day-price">
+                            <p> 950 р/Час </p>
+                            <button class="book"> Забронировать место </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-photo"> <img src="./images/room3.jpg" alt="room-3"> </div>
+            </div>
+        </div>
+    </secction>
+
+    <secction class="place-for-dream ">
+        <h1>Спальное место </h1>
+        <img src="./images/bed.jpg" alt="bed">
+    </secction>
+
+    <secction class="hostel-photos ">
+        <h1> Фотографии хостела </h1>
+        <div class="column">
+            <div> <img src="./images/hostel_photos/photo1.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo2.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo3.jpg" alt="photo"> </div>
+        </div>
+        <div class="column">
+            <div> <img src="./images/hostel_photos/photo4.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo5.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo6.jpg" alt="photo"> </div>
+        </div>
+        <div class="column">
+            <div> <img src="./images/hostel_photos/photo7.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo8.jpg" alt="photo"> </div>
+            <div> <img src="./images/hostel_photos/photo9.jpg" alt="photo"> </div>
+        </div>
+    </secction>
+
+    <secction class="sofa-big">
+        <div class="sofa-pic">
+            <img src="./images/sofa.jpg" alt="photo">
+            <div clas="info">
+                <h2>Insta-Диван</h2>
+                <p> Каждый участник конкурса имеет шанс остановиться у нас <span> со  скидкой 50% </span> в течение трех дней!</p>
+                <p>Сфотографируйтесь на нашем старинном диване, который стоит в гостинной, и пришлите нам фотографию. </p>
+                <p>Следите за информацие в социальных сетях! </p>
+                <p class="log"> <img src="./images/svg/icons/vk divan.svg" alt="vk-label" height="30" width="30" id="vk">
+                    <img src="./images/svg/icons/instagram divan.svg " alt="hotel-label " height="30 " width="30 "> </p>
+            </div>
+        </div>
+
+    </secction>
+
+    <secction class="comments ">
+        <h1> Отзывы </h1>
+        <div class="comments-inf">
+            <div>
+                <img src="./images/person1.jpg" alt="person">
+                <h3> Лидия Смирнова </h3>
+                <p>
+                    Понравилось всё. Более того, побывав в этом месте, понимаешь, что вряд ли в следующий раз будешь искать новый! Плюсы: свежий ремонт, к интерьеру подошли со вкусом. Для тех, кто хочет подышать или покурить, всегда открыты балконы! Чистота, входные двери
+                    всегда закрываются на замок, везде стоят камеры, что не может не радовать бесспорно! Очень удобные спальные места, словно отдельная комната со шторками. Поэтому даже в 4-местной комнате было ощущение уединенности. </p>
+                <p class="vk-adress">vk.com/smirnovalido </p>
+            </div>
+            <div>
+                <img src="./images/person2.jpg" alt="person">
+                <h3> Микаэль Алексанян </h3>
+                <p>
+                    Хостел понравился своим комфортом и гостеприимством администрации. Очень удобное расположение. Рядом центр и парк. Приятно было гостить в хостеле со свежим и современным ремонтом. Всем рекомендую).
+                </p>
+                <p class="vk-adress">vk.com/jimmyheat </p>
+            </div>
+            <div>
+                <img src="./images/person3.jpg" alt="person">
+                <h3> Максим Ракицкий </h3>
+                <p>
+                    Остановился в хостеле на неделю, в Крыму был по работе. Уровень заведения -высочайший, можно казать, отель. Всего в здании - 3 этажа, на каждом этаже есть санузел с душем и туалетом и бойлером (горячая вода будет всегда). На первом этаже - уютный 8-местный
+                    номер (размещался именно там), на втором - гостиная с кухней и телевизором, на третьем - два 4-местных номера.
+                </p>
+                <p class="vk-adress">vk.com/simonsimonich </p>
+            </div>
+        </div>
+    </secction>
+
+    <div class="footer">
+        <div class="sell-info">
+            <div class="contact-row"> <img src="./images/svg/icons/house-outline.svg" alt="home">
+                <p> Симферополь </p>
+            </div>
+            <div class="contact-row"> <img src="./images/svg/icons/phone-call.svg" alt="phone">
+                <p> 89787242544 </p>
+            </div>
+            <div class="contact-row"> <img src="./images/svg/icons/vk_header_footer.svg" alt="VK">
+                <p> Вступайте в нашу группу </p>
+            </div>
+            <div class="contact-row"> <img src="./images/svg/icons/instagram_header_footer.svg" alt="Instagram">
+                <p> Подписывайся в Instagram </p>
+            </div>
+            <div class="form-f">
+                <form>
+                    <div> <input type="text" name="Имя"> </div>
+                    <div> <input type="text" name="Фамилия"> </div>
+                    <div> <button type="submit">Забронировать </button> </div>
+                </form>
+            </div>
+            <div class="contact-row">
+                <img src="./images/logo_origami.png" alt="Logo">
+            </div>
+            <!-- Почему не работает изменение цвета?-->
+        </div>
+        <div id="YMapsID"> </div>
+    </div>
+
+
+
+</body>
+
+</html>
