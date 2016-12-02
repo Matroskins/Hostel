@@ -18,33 +18,58 @@
     flex-direction: column;
 }
 
-
 .hostel header {
+    display: flex;
     margin-top: 20px;
+    margin-left: 250px;
 }
 
+.hostel-specials h1,
+.rooms h1,
+.place-for-dream h1,
+.hostel-photos h1,
+.comments h1 {
+    margin-top: 45px;
+}
+
+.hostel header .header-element,
+#hotelLabel,
 .hostel header .header-element p,
 .hostel header .header-element img {
     display: inline-block;
-    margin-left: 50px;
 }
 
 .hostel header .header-element p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.hostel header div:nth-child(n+1) {
-    margin-left: 100px;
-    float: left;
+.hostel header .header-element:nth-child(n+1) p,
+.hostel header .header-element img {
+    margin-left: 30px;
 }
 
+.hostel header .header-element img {
+    vertical-align: bottom;
+}
+
+.hostel header .header-element {
+    margin-left: 700px;
+    padding-top: 25px;
+}
+
+
+/*
 .hostel header div:nth-child(2) {
     margin-left: 290px;
     display: flex;
-}
+}*/
 
 .hostel header p {
     color: white;
+}
+
+.insta-s:hover {
+    fill: red;
 }
 
 .hostel .hostel-face {
@@ -83,12 +108,11 @@
     margin-top: 60px;
 }
 
-.hostel-specials h2 {
-    margin-top: 100px;
+.hostel-specials h1 {
     margin-bottom: 50px;
     text-align: center;
     font-family: 'MuseoCyrl';
-    font-size: 20pt;
+    font-size: 40pt;
 }
 
 .hostel-specials>div {
@@ -118,10 +142,11 @@
     font-size: 17pt;
 }
 
-.room h2 {
-    font-style: 'MuseoCyrl', serif;
+.rooms h1 {
+    font-family: 'MuseoCyrl';
     font-size: 40pt;
     font-weight: 400;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -219,9 +244,9 @@
 
 .place-for-dream h1,
 .hostel-photos h1 {
-    margin-top: 20px;
-    font-size: 20pt;
-    font-weight: 500;
+    /*margin-top: 20px;*/
+    font-size: 40pt;
+    font-weight: 400;
     font-family: 'MuseoCyrl', serif;
     text-align: center;
 }
@@ -303,34 +328,36 @@
 
 .comments h1 {
     text-align: center;
-    margin-top: 20px;
-    font-family: 'MuseoCyrl 500', 'serif';
-    font-size: 25pt;
-    font-weight: 600;
-}
-
-.comments img {
-    /*width: 220px;*/
+    font-family: 'MuseoCyrl', serif;
+    font-size: 40pt;
+    font-weight: 400;
 }
 
 .comments-inf {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex;
 }
 
 .comments-inf h3 {
-    font-family: 'Roboto Bold', 'serif';
+    font-family: 'Roboto Bold', serif;
     font-size: 20pt;
     font-weight: 600;
 }
 
 .comments-inf p {
-    font-family: 'Roboto', 'serif';
+    font-family: 'Roboto', serif;
 }
 
 .comments-inf div {
     width: 230px;
+}
+
+.comments-inf div:nth-child(1) {
+    margin-left: 250px;
+}
+
+.comments-inf div:nth-child(n+2) {
+    margin-left: 370px;
 }
 
 .comments-inf h3 {
@@ -347,6 +374,13 @@
     float: right;
 }
 
+.sell-info .contact-row {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
 .contact-row img {
     height: 20px;
     width: 20px;
@@ -354,12 +388,9 @@
 
 .contact-row p {
     color: white;
+    font-family: 'Open Sans', serif;
+    font-size: small;
     margin-left: 10px;
-}
-
-.contact-row {
-    display: flex;
-    align-items: center;
 }
 
 .footer button {
@@ -370,6 +401,7 @@
     padding: 10px 5px 10px 5px;
     background-color: #fd725b;
     border: none;
+    margin-left: 50px;
 }
 
 .form-f div {
@@ -381,8 +413,9 @@
     margin-left: 10px;
 }
 
-.contact-row:last-child {
-    margin-top: 10px;
+.sell-info img {
+    width: 30px;
+    height: 30px;
 }
 
 .contact-row:last-child img {

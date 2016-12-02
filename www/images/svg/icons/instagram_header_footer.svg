@@ -21,8 +21,8 @@
 		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
 		</i:pgfRef>
 	</foreignObject>
-	<g i:extraneous="self">
-		<g id="XMLID_13_">
+	<g i:extraneous="self" class="insta-s">
+		<g id="XMLID_13_" >
 			<path id="XMLID_17_" class="st0" d="M78.2,267.5H66.9c-4.6,0-8.3,3.7-8.3,8.3v11.3c0,4.6,3.7,8.3,8.3,8.3h11.3
 				c4.6,0,8.3-3.7,8.3-8.3v-11.3C86.5,271.2,82.8,267.5,78.2,267.5z M83.7,287.1c0,3.1-2.5,5.5-5.5,5.5H66.9c-3.1,0-5.5-2.5-5.5-5.5
 				v-11.3c0-3.1,2.5-5.5,5.5-5.5h11.3c3.1,0,5.5,2.5,5.5,5.5L83.7,287.1L83.7,287.1z"/>
