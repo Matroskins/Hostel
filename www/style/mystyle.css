@@ -353,11 +353,11 @@
 }
 
 .comments-inf div:nth-child(1) {
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .comments-inf div:nth-child(n+2) {
-    margin-left: 370px;
+    margin-left: 140px;
 }
 
 .comments-inf h3 {
