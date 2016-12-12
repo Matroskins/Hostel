@@ -21,7 +21,10 @@
 .hostel header {
     display: flex;
     margin-top: 20px;
-    margin-left: 250px;
+}
+
+#hotelLabel {
+    margin-left: 160px;
 }
 
 .hostel-specials h1,
@@ -53,7 +56,7 @@
 }
 
 .hostel header .header-element {
-    margin-left: 700px;
+    margin-left: 550px;
     padding-top: 25px;
 }
 
